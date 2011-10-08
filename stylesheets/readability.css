@@ -1,0 +1,81 @@
+/* Main layout and basic typography. */
+html, body {
+  background-color: #F0F0F0;
+  color: #111111;
+  font-family: 'OFL Sorts Mill Goudy TT', Calluna-Exljbris, Georgia, "Palatino Linotype", "Times New Roman", serif; 
+}
+
+html > body {
+    line-height: 1.5em;
+    font-size: 18px;
+    color: #3F3F3F;
+}
+
+body > div { 
+    width: 42em;
+    margin: 1.5em auto; 
+}
+
+/* Link styles. */
+a {
+    color: #CC3F20;
+    text-decoration: none; }
+a:hover {
+    color: #F09933;
+    text-decoration: underline; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+/* Code/monospaced styles. */
+tt, code, kbd, samp, pre {
+    display: block;
+    line-height: 1.25em;
+    font-size: 12px;
+    font-family: Consolas, Monaco, "Courier New", Courier, monospace; 
+    background-color: #303030;
+    color: #D0D0D0;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    margin: 1em 0;
+    overflow: auto; 
+}
+
+/* Header styles. */
+div#header h1 {
+  font-size: 3em;
+  line-height: 4em;
+  margin: 0;
+  text-align: center; }
+div#header h1 a {
+    color: #111111;
+    font-weight: normal;
+    text-shadow: 0px 1px 1px #fff; }
+div#header h1 a:hover {
+    text-decoration: none;
+}
+
+/* Post styles */
+div.post  {
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5 em;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
+/* Footer styles. */
+div#footer {
+  color: #666666;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 6em; }
+
+
+/* Table of contents styles. */
+div.toc ul {
+  list-style-type: none; }
+  div.toc ul:first-child > li {
+    margin-left: 0; }
+
+/* Screencast styles. */
+div.screencast { text-align: center; }
